@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    color: #FF7A00;
+}
+.container{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 3rem;
+}
+form{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputs{
+    width: 100%;
+    height: 75px;
+    margin-bottom: 1rem;
+    font-size: 3.5vw;
+    border: none;
+    background-color: #ff5e0083;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.label{
+    font-size: 2vw;
+    margin-bottom: .5rem;
+    font-weight: 700;
+}
+
+.login-signup{
+    margin-top: 25px;
+    padding: .5rem;
+    width: 400px;
+    border: none;
+    background-color: #FF7A00;
+    color: white;
+    font-size: 3rem;
+    border-radius: 15px;
+}
+
+#signup-login-link{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.dropdown{
+    margin-top: 1rem;
+    height: fit-content;
+    font-size: 3vw;
+    background-color:#ff5e0083;
+    color: white;
+    width: 100%;
+}
+
+.dropdown option{
+    color: white;
+}
+
+#welcome{
+    margin: 1rem 1rem 10vh 1rem;
+    padding: 10px;
+    border: #FF7A00 2px solid;
+    width: fit-content;
+    height: fit-content;
+    font-size: 5vw;
+}
+#balance{
+    background-color: #FF7A00;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+#balance p{
+    color: white;
+    text-align: center;
+    font-size: 8vw;
+}
+
+.dashboard-buttons{
+    display: block;
+    width: 25%;
+    margin-top: 3rem;
+    background-color: #FF7A00;
+    border: none;
+    height: 4rem;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    padding: 13px;
+    display: flex;
+    align-self: center;
+}
+
+.dashboard-buttons a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 4vw;
+}
+
+.withdraw-deposit-button{
+    display: inline-flex;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #FF7A00;
+    color: white;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    font-size: 7vw;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.withdraw-deposit{
+    font-size: 8vw;
+}
+
+.withdraw-deposit-parent{
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: #FF7A00 5px solid;
+    border-radius: 50px;
+}
