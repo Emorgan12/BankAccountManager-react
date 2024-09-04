@@ -105,6 +105,10 @@ form{
     padding: 13px;
     display: flex;
     align-self: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 4vw;
 }
 
 .dashboard-buttons a{
@@ -132,6 +136,8 @@ form{
 
 .withdraw-deposit{
     font-size: 8vw;
+    width: 8rem;
+    text-align: center;
 }
 
 .withdraw-deposit-parent{
