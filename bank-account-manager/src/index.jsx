@@ -17,7 +17,7 @@ function App() {
     const [transferUser, setTransferUser] = useState([]);
 
     
-    const BASE_URL = 'https://localhost:5001/accounts';
+    const BASE_URL = 'http://localhost:5000/accounts';
     
     
     useEffect(() => {
@@ -208,7 +208,7 @@ function App() {
             <button className="dashboard-buttons" onClick={() => {setDepositClicked(true); setButtonClicked(true);}}>Deposit Funds</button>
             <button className="dashboard-buttons" onClick={() => {setTransferClicked(true); setButtonClicked(true); setDepositClicked(false); setWidthdrawClicked(false)}}>Transfer Funds</button>
             <br />
-            <button className="dashboard-buttons" onClick={() => {setSignedIn(false);}}>Log Out</button>
+            <button className="dashboard-buttons" onClick={() => {setSignedIn(false); setPassword(''); setUserName('')}}>Log Out</button>
         </div>
         </> ) : (depositClicked ? ( 
              <>
