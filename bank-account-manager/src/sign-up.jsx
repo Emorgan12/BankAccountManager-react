@@ -6,7 +6,7 @@ function SignUp() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
-    const BASE_URL = 'http://localhost:5000/accounts';
+    const BASE_URL = 'http://localhost:5001/accounts';
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('username:', username);
